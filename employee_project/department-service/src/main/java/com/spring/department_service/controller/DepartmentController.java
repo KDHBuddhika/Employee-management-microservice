@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("api/v1/department")
 public class DepartmentController {
-    
-    @Autowired
+     
+     @Autowired
     private DepartmentService departmentService;
     
     @PostMapping("/add-department")
