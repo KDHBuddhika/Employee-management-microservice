@@ -76,6 +76,30 @@
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
 
+
+
+		<!-- Distributed Tracing (replaces Sleuth)  10 video -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-tracing-bridge-brave</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-observation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.zipkin.reporter2</groupId>
+			<artifactId>zipkin-reporter-brave</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.zipkin.reporter2</groupId>
+			<artifactId>zipkin-sender-okhttp3</artifactId>
+		</dependency>
+
+
+
+
 	</dependencies>
 
 	<dependencyManagement>
